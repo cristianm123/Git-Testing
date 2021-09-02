@@ -2,7 +2,7 @@ emails = []
 
 # Cristian
 emails.append("crisfemoar2011@hotmail.com")
-emails.append("tumamita@gmail.com")
+emails.append("tumamita@hotmail.com")
 
 # Nini
 
