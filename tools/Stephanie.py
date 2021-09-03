@@ -1,2 +1,2 @@
 def addStephanieToParty(party):
-	pass
+	return party

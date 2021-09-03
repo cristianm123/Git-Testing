@@ -1,2 +1,2 @@
 def addNiniToParty(party):
-	pass
+	return party

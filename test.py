@@ -1,3 +1,6 @@
+import tqdm
+import time
+
 from tools.Cristian import addCristianToParty
 from tools.Nini import addNiniToParty
 from tools.Julian import addJulianToParty
@@ -14,7 +17,6 @@ from tools.Monica import addMonicaToParty
 from tools.Jhonatan import addJhonatanToParty
 
 party = []
-party = addCristianToParty(party)
 party = addNiniToParty(party)
 party = addJulianToParty(party)
 party = addJonathanToParty(party)
@@ -28,5 +30,11 @@ party = addWilsonToParty(party)
 party = addDiegoToParty(party)
 party = addMonicaToParty(party)
 party = addJhonatanToParty(party)
+party = addCristianToParty(party)
 
-print(party)
+for x in tqdm.tqdm(party, position=0, leave=True):
+    print("")
+    print(x + " está entrando a la fiesta")
+    time.sleep(2)
+
+print(", ".join(party), "están en la fiesta")

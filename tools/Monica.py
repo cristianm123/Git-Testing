@@ -1,2 +1,2 @@
 def addMonicaToParty(party):
-	pass
+	return party
