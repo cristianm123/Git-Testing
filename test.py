@@ -14,8 +14,6 @@ from tools.Diego import addDiegoToParty
 from tools.Monica import addMonicaToParty
 from tools.Jhonatan import addJhonatanToParty
 
-from tools.tryy import add
-
 party = []
 party = addCristianToParty(party)
 party = add(party)
