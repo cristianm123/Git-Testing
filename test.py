@@ -1,4 +1,3 @@
-from tools.tryy import add
 from tools.Cristian import addCristianToParty
 from tools.Nini import addNiniToParty
 from tools.Julian import addJulianToParty
@@ -16,19 +15,18 @@ from tools.Jhonatan import addJhonatanToParty
 
 party = []
 party = addCristianToParty(party)
-party = add(party)
-#party = addNiniToParty(party)
-#party = addJulianToParty(party)
-#party = addJonathanToParty(party)
-#party = addJuanDavidToParty(party)
-#party = addMaryAnnToParty(party)
-#party = addMayraToParty(party)
-#party = addJuanPabloToParty(party)
-#party = addLadyToParty(party)
-#party = addStephanieToParty(party)
-#party = addWilsonToParty(party)
-#party = addDiegoToParty(party)
-#party = addMonicaToParty(party)
-#party = addJhonatanToParty(party)
+party = addNiniToParty(party)
+party = addJulianToParty(party)
+party = addJonathanToParty(party)
+party = addJuanDavidToParty(party)
+party = addMaryAnnToParty(party)
+party = addMayraToParty(party)
+party = addJuanPabloToParty(party)
+party = addLadyToParty(party)
+party = addStephanieToParty(party)
+party = addWilsonToParty(party)
+party = addDiegoToParty(party)
+party = addMonicaToParty(party)
+party = addJhonatanToParty(party)
 
 print(party)
