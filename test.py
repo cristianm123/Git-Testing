@@ -1,4 +1,4 @@
-from tools.try import add
+from tools.tryy import add
 from tools.Cristian import addCristianToParty
 from tools.Nini import addNiniToParty
 from tools.Julian import addJulianToParty
