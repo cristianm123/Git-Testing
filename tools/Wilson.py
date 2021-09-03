@@ -1,0 +1,2 @@
+def addWilsonToParty(party):
+	pass

@@ -1,72 +1,36 @@
-emails = []
+from tools.try import add
+from tools.Cristian import addCristianToParty
+from tools.Nini import addNiniToParty
+from tools.Julian import addJulianToParty
+from tools.Jonathan import addJonathanToParty
+from tools.JuanDavid import addJuanDavidToParty
+from tools.MaryAnn import addMaryAnnToParty
+from tools.Mayra import addMayraToParty
+from tools.JuanPablo import addJuanPabloToParty
+from tools.Lady import addLadyToParty
+from tools.Stephanie import addStephanieToParty
+from tools.Wilson import addWilsonToParty
+from tools.Diego import addDiegoToParty
+from tools.Monica import addMonicaToParty
+from tools.Jhonatan import addJhonatanToParty
 
-# Cristian
-emails.append("crisfemoar2011@hotmail.com")
+from tools.tryy import add
 
+party = []
+party = addCristianToParty(party)
+party = add(party)
+#party = addNiniToParty(party)
+#party = addJulianToParty(party)
+#party = addJonathanToParty(party)
+#party = addJuanDavidToParty(party)
+#party = addMaryAnnToParty(party)
+#party = addMayraToParty(party)
+#party = addJuanPabloToParty(party)
+#party = addLadyToParty(party)
+#party = addStephanieToParty(party)
+#party = addWilsonToParty(party)
+#party = addDiegoToParty(party)
+#party = addMonicaToParty(party)
+#party = addJhonatanToParty(party)
 
-# Nini
-
-
-
-# Julian
-
-
-
-# Jonathan Gonzalez
-
-
-
-# Juan David
-
-
-
-# Mary Ann
-
-
-
-# Mayra
-
-
-
-# Juan Pablo
-
-
-
-# Lady
-
-
-
-# Stephanie
-
-
-
-# Wilson
-
-
-
-# Diego
-
-
-
-# Monica
-
-
-
-# Jhonatan Andres
-
-
-
-#----------------------------
-dic = dict()
-
-with open("mails.txt", "r") as f:
-    for line in f.readlines():
-        mail, name = line.split(",")
-        dic[mail] = name
-
-for mail in emails:
-    if mail in dic:
-        print("El email %s es de %s" %(mail, dic[mail]) )
-    else:
-        print("El email %s no está en la base de datos" % mail)
-
+print(party)

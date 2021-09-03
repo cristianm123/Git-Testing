@@ -1,0 +1,2 @@
+def addJhonatanToParty(party):
+	pass

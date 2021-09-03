@@ -1,0 +1,2 @@
+def addMayraToParty(party):
+	pass

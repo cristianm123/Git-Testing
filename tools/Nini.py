@@ -1,0 +1,2 @@
+def addNiniToParty(party):
+	pass

@@ -1,0 +1,2 @@
+def addLadyToParty(party):
+	pass
