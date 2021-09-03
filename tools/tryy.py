@@ -1,2 +1,2 @@
 def add(party):
-    pass
+    party.append("wenas")
