@@ -15,6 +15,7 @@ from tools.Wilson import addWilsonToParty
 from tools.Diego import addDiegoToParty
 from tools.Monica import addMonicaToParty
 from tools.Jhonatan import addJhonatanToParty
+from tools.Gamarra import addGamarraToParty
 
 party = []
 party = addNiniToParty(party)
@@ -30,6 +31,7 @@ party = addWilsonToParty(party)
 party = addDiegoToParty(party)
 party = addMonicaToParty(party)
 party = addJhonatanToParty(party)
+party = addGamarraToParty(party)
 party = addCristianToParty(party)
 
 for x in tqdm.tqdm(party, position=0, leave=True):
