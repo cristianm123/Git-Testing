@@ -1,2 +1,3 @@
 def addWilsonToParty(party):
-	return party
+    party.append("WilsonAlvarez")
+    return party
