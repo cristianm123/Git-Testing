@@ -17,7 +17,7 @@ from tools.Monica import addMonicaToParty
 from tools.Jhonatan import addJhonatanToParty
 from tools.Gamarra import addGamarraToParty
 
-party = []
+party = ["Valeria novia linda"]
 party = addNiniToParty(party)
 party = addJulianToParty(party)
 party = addJonathanToParty(party)
