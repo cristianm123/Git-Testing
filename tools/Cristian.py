@@ -1,3 +1,3 @@
 def addCristianToParty(party):
-	party.append("Cristian")
+	party.append("Cristian ")
 	return party
